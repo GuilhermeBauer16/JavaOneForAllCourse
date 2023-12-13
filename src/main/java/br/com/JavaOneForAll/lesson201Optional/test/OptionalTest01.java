@@ -29,4 +29,6 @@ public class OptionalTest01 {
 
         return Optional.empty();
     }
+
+    String name2 = findName("William").orElseThrow(IllegalAccessError::new);
 }
